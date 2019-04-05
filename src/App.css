@@ -1,3 +1,10 @@
-.App {
-  margin: 15px;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html, body, .App, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  /* background-color: rgba(36, 35, 35, 0.384) */
 }
+  
