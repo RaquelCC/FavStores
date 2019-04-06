@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5e16179525758fa2520d",
+    "revision": "681662b2a920c9ef6363",
     "url": "/FavStores/static/css/main.d870741e.chunk.css"
   },
   {
-    "revision": "5e16179525758fa2520d",
-    "url": "/FavStores/static/js/main.5e161795.chunk.js"
+    "revision": "681662b2a920c9ef6363",
+    "url": "/FavStores/static/js/main.681662b2.chunk.js"
   },
   {
     "revision": "d37165e2a025686151e8",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/FavStores/static/js/2.8051f8a1.chunk.js"
   },
   {
-    "revision": "c8d41633a19ce19e1ea4b0810f4090f5",
+    "revision": "315202c3f5d594bd84389ddf81ceca59",
     "url": "/FavStores/index.html"
   }
 ];
