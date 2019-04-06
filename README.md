@@ -1,6 +1,6 @@
 # FavStores
 
-FavStores es una aplicación que permite al usuario visualizar en un mapa de Google entrado en Ciudad de México y ver las tiendas que tiene a su alrededor y agregarlas de manera facil, rápida e intuitiva a una lista con sus tiendas favoritas, pudiendo eliminarlas posteriormente.
+FavStores es una aplicación que permite al usuario visualizar un mapa de Google centrado en Ciudad de México y ver las tiendas que tiene a su alrededor y agregarlas de manera facil, rápida e intuitiva a una lista con sus tiendas favoritas, pudiendo eliminarlas posteriormente.
 
 ### USO DE LA APLICACIÓN
 
