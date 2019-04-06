@@ -6,7 +6,7 @@ import MapStores from './mapStores';
 
 const MapContainer = compose(
   withProps({
-    googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCPXHVT3nPdAZbs4wMGm241DOlPOPfNn7s",
+    googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCMAYPTaGxoipPLE6b9Hp9AFnHBXzlBYyQ",
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div className="map-container"style={{ height: `100%`, width: "70%", float: "right" }} />,
     mapElement: <div style={{ height: `100%` }} />,
@@ -25,6 +25,8 @@ const MapContainer = compose(
 )
 
 export default MapContainer;
+
+// AIzaSyCMAYPTaGxoipPLE6b9Hp9AFnHBXzlBYyQ
 
 // AIzaSyCPXHVT3nPdAZbs4wMGm241DOlPOPfNn7s
 
