@@ -5,6 +5,27 @@ html, body, .App, #root {
   margin: 0;
   padding: 0;
   font-family: 'Roboto';
+  color: rgb(86, 86, 86);
   /* background-color: rgba(36, 35, 35, 0.384) */
 }
+
+
+@media only screen and (max-width: 870px) {
+  .favorite-stores-container {
+    width: 100% !important;
+    height: 40% !important;
+    overflow: scroll !important;
+  }
+  .map-container {
+    width: 100% !important;
+    height: 60% !important;
+  }
+  .modal-card {
+    width: 80% !important;
+    left: 10% !important;
+  }
+  .fav-stores-title {
+    margin: 3% auto !important;
+  }
   
+}

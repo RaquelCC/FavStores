@@ -1,53 +1,38 @@
-Generation Take-Home Coding Challenge
-=================================
-This is a take-home coding challenge used to help evaluate candidates
-interested in joining the team at Generation.
-The goal is for candidates to complete the coding challenge before the
-in-person interview so that we can discuss the solution together.
-In cases where this is not possible, we may discuss the solution together
-over a followup phone call.
+# FavStores
 
-### What should you expect?
+FavStores es una aplicación que permite al usuario visualizar en un mapa de Google entrado en Ciudad de México y ver las tiendas que tiene a su alrededor y agregarlas de manera facil, rápida e intuitiva a una lista con sus tiendas favoritas, pudiendo eliminarlas posteriormente.
 
-We expect that the exercise will take anywhere from 5-7 days to complete
-depending on your familiarity with React and with the GoogleMaps API.
+### USO DE LA APLICACIÓN
 
-We understand that this is a significant amount of time so we really appreciate
-the effort you put into it.
+Para utilizar la aplicación solo hay que ingresar a:
 
-### How should you submit your code?
+[https://raquelcc.github.io/FavStores](https://raquelcc.github.io/FavStores)
 
-Any way you want - email us a link to your personal repo, a link with the application running on a server, etc. 
-Please include a couple screenshots of the app.
+### HISTORIAS DE USUARIO
 
-### What if I don't know React? 
+La aplicación se desarrolló en base a la completitud de las siguientes Historias de Usuario:
 
-Feel free to submit a solution that meets the requirements, but without using React.
-React is an important part of our stack and you'll be using it every day so it's important
-that you're excited to learn it! If you don't know React and you're able to learn the basics
-in order to complete the exercise, we'll be impressed :)
+1. Como estudiante, quiero ver un mapa de Ciudad de México.
+2. Como estudiante, quiero ver un mapa que tenga todas las tiendas representadas como marcadores/pinnes en el mapa.
+3. Como estudiante, quiero poder clickear en un marcador y agregarlo a una lista de "Mis Tiendas favoritas".
+4. Como estudiante, quiero poder clickear en una de "Mis Tiendas Favoritas" y eliminarla de la lista.
 
-<a href="https://tylermcginnis.com/react-js-tutorial-pt-1-a-comprehensive-guide-to-building-apps-with-react-js-8ce321b125ba#.h5n3iisi4">Here's a great React tutorial</a>
+### TECNOLOGÍAS UTILIZADAS
 
-<a href="http://courses.reactjsprogram.com/courses/reactjsfundamentals">This one is also great.</a>
+Para el desarrollo de esta aplicación se utilizaron las siguientes tecnologías/modulos:
 
-### How do you start?
+- JavaScript
+- React
+- HTML5
+- CSS3
+- El modulo react-google-maps, el cual utiliza la API de Google Maps.
 
-Clone the repo on your computer
+### PRUEBAS UNITARIAS
 
-Run
-```
-yarn
-yarn start
-open http://localhost:3000
-```
-Read the intro and next steps on localhost:3000
-Edit `src/YourComponent.js`.  
-Your changes will appear without reloading the browser.
+La aplicación cuenta con pruebas unitarias para las funcionalidades centrales de la aplicación, esto es, agregar y eliminar tiendas de la lista de favoritos.
 
-### What do we look for?
+Para poder correr los tests se debe:
 
-* **Correctness**: does the application do what was asked (e.g., all the user stories are complete)? If there is anything missing, does the README explain why it is missing?
-* **Code quality**: is the code simple, easy to understand, and maintainable?  Are there any code smells or other red flags? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
-* **UX**:  Is the web interface understandable and pleasing to use? Is it responsive to various screen sizes, and fast to load?
-
+1. Clonar este repositorio.
+2. Ejecutar `npm install` desde la terminal, posicionada en la carpeta raiz del proyecto.
+3. Ejecutar `npm test` desde la terminal, posicionada en la carpeta raiz del proyectos.

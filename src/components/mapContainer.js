@@ -8,7 +8,7 @@ const MapContainer = compose(
   withProps({
     googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCVH8e45o3d-5qmykzdhGKd1-3xYua5D2A",
     loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `100%`, width: "70%", float: "right" }} />,
+    containerElement: <div className="map-container"style={{ height: `100%`, width: "70%", float: "right" }} />,
     mapElement: <div style={{ height: `100%` }} />,
   }),
   withScriptjs,
@@ -19,7 +19,7 @@ const MapContainer = compose(
     defaultCenter={{ lat: 19.4326, lng: -99.1332 }}
   >
     <MapStores
-    fx={props.favoriteStoreInfo}
+    fx={props.showStoreInfo}
     />
   </GoogleMap>
 )
