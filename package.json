@@ -1,8 +1,10 @@
 {
-  "name": "generation-take-home-intern",
+  "name": "fav-stores",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://raquelcc.github.io/FavStores",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-google-maps": "^9.4.5",
@@ -11,6 +13,8 @@
     "sinon": "^7.3.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
